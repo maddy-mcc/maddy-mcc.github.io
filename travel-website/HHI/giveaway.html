@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>HHI Giveaway</title>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="../myFinalStyle.css"/>
+   </head>
+   <body class="imageTheme">
+   	  <div id="navigation">
+   	  	<a href="../index.html">Home</a> &nbsp; | &nbsp;
+  		<a href="history.html">History</a> &nbsp; | &nbsp;
+  		<a href="attractions.html">Attractions</a> &nbsp; | &nbsp;
+  		<a href="golf.html">Golf</a> &nbsp; | &nbsp;
+  		<a href="travel.html">Travel</a> &nbsp; | &nbsp;
+  		<a href="restaurants.html">Restaurants</a> &nbsp; | &nbsp;
+  		<a href="giveaway.html">Giveaway</a>
+   	  </div>
+   	  
+   	  
+   	  <h1 class="position"> Do You Want a Free Trip to HHI? </h1>
+   	  
+   	  <div class="form">
+   	   <form id="order1" method="post" action="http://amgilder.wcit.cs.unh.edu/cgi-bin/test403">
+         <label for="fname">First Name:</label> <input name="fname" id="fname" type="text" /><br />
+            <label for="lname">Last Name:</label> <input name="lname" id="lname" type="text" /><br />
+            
+            <br />
+            
+            <label for="email">Email:</label> <input name="email" id="email" type="text" /><br />
+            <label for="pnumber">Phone Number:</label> <input name="pnumber" id="pnumber" type="text" /><br />
+            
+            <br /> 
+            
+         <input name="confemail" id="confemail" type="checkbox" />
+            <label for="confemail">Send Confirmation by Email</label><br />
+            <input name="conftext" id="conftext" type="checkbox" />
+            <label for="conftext">Send Confirmation by Text</label><br />
+            
+            <br />
+            
+          <label>Are you 18 years or older?</label><br />
+            <input name="yearsoldYes" id="yearsoldYes" type="radio" value="years"/>
+            <label for="yearsoldYes">Yes</label><br />
+            <input name="yearsoldNo" id="yearsoldNo" type="radio" value="years"/>
+            <label for="yearsoldNo">No</label><br />
+         
+            <br />
+            
+         <label for="duration">How long would you like your stay to be?</label>
+                  <select name="duration" id="duration">
+                     <option>One Week</option>
+                     <option>Two Weeks</option>
+                  </select><br />
+                  
+            <br />
+
+          
+         <input type="submit" value="Submit"/>
+            <input type="hidden" name="formtype" value="Order" />
+ 
+      </form>
+      </div>
+        
+      
+   </body>
+</html>

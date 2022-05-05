@@ -1,0 +1,126 @@
+ body 
+ {
+	 background-color: #b9c8db;
+ }
+ h1, h2 
+ {
+	 color: #00008B;
+	 text-decoration:underline;
+	 margin: 20px;
+ }
+
+ p 
+ {
+	 color: #8B0000;
+	 font-family: Helvetica,Arial,sans-serif;
+	 background-color: #B0C4DE;
+	 width: 700px;
+	 padding: 20px;
+	 margin: 20px;
+	 border: 5px solid #778899;
+ }
+
+ #navigation 
+ {
+	 background-color:#E6E6FA;
+	 width: 180px;
+	 height: 25px;
+	 padding: 20px;
+	 margin: 20px;
+	 border: 5px solid #778899;
+	 
+ }
+ 
+ .notice
+{
+	background-color:#E6E6FA;
+	width: 235px;
+	height: 25px;
+	padding: 20px;
+	margin: 20px;
+	border: 5px solid #778899;
+	
+}
+
+.hilite
+{
+	background-color:#E6E6FA;
+	width: 235px;
+	height: 25px;
+	padding: 20px;
+	margin: 20px;
+	border: 5px solid #778899;
+}
+
+ #title 
+ {
+	 color:#00008B; 
+	 font-size:200%;
+ }
+ 
+  span.unique
+ {
+	 color: #8B0000;
+	 font-weight: bold;
+	 font-style: italic;
+	 position: absolute;
+ }
+ 
+ #focus
+{
+	font-weight: bold;
+	position: absolute;
+}
+
+ .image 
+ {
+	 float: right;
+	 position: relative;
+	 z-index: -1;
+ }
+ 
+ .image2
+ {
+ 	position: fixed;
+ 	clear: both;
+
+ }
+ 
+ #image3
+ {
+ 	float: right;
+ 	position: relative;
+ 	z-index: -1;
+ }
+
+ul li 
+{
+	color: #8B0000;
+	margin: 20px;
+}
+
+ol li 
+{
+	color: #8B0000;
+	font-style: italic;
+	
+}
+
+ a:link   
+ {
+	 color:#00008B;
+ }
+ a:visited 
+ {
+	 color:#6699CC;
+ }
+ a:hover   
+ {
+	 color:#CC3300;
+	 text-decoration:underline;
+ }
+ a:active  
+ {
+	 color:#CC3300;
+	 text-decoration:underline;
+ }
